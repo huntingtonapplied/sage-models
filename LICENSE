@@ -1,0 +1,6 @@
+AHL Model End User License Agreement (v1.0)
+SPDX-License-Identifier: LicenseRef-AHL-Model-EULA-1.0
+
+Copyright (c) 2025-2026 Huntington Applied. All rights reserved.
+
+This package (sage-models) and its compiled artifacts are proprietary. Permission is granted to install and run the package for inference. Reverse engineering, decompilation, extraction of weights or featurization logic, and redistribution are prohibited. Provided AS IS, without warranty. The surrogate outputs are approximations and are not a substitute for the ground-truth solver.
