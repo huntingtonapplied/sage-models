@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sage-models"
+version = "0.2.0"
+description = "Runnable neural-surrogate inference package for sage (compiled)."
+requires-python = ">=3.10"
+license = { text = "LicenseRef-AHL-Model-EULA-1.0" }
+dependencies = ["numpy>=1.24", "onnxruntime>=1.17"]
+
+[tool.setuptools]
+packages = ["sage_models"]
+
+[tool.setuptools.package-data]
+"sage_models" = ["_featurizer*.so", "_featurizer*.pyd", "_meta.json", "models/*/model.onnx", "models/*/public_config.json", "models/*/MODEL_CARD.md"]
