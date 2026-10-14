@@ -1,0 +1,47 @@
+{
+  "craft_id": "sage_docking_v1",
+  "version": "0.2.0",
+  "project": "sage",
+  "format": "safetensors",
+  "framework": "pytorch",
+  "weights_file": "model.safetensors",
+  "total_parameters": 2012738,
+  "dtype": "float32",
+  "status": "trained",
+  "description": "Sage Drug-Protein Docking Predictor Craft (4.4)",
+  "input": {
+    "kind": "device_spec",
+    "spec_version": "1.0",
+    "note": "Provide a physical device/scene specification; see the project's model docs."
+  },
+  "output": {
+    "kind": null,
+    "channels": [],
+    "device_family": null,
+    "note": "Physical fields; de-normalization to physical units is applied inside the package."
+  },
+  "io": {
+    "outputs": {
+      "channels": [],
+      "count": 0,
+      "kind": null
+    }
+  },
+  "solution_compatibility": null,
+  "tags": [
+    "status:trained",
+    "project:sage",
+    "provenance:engine_truth",
+    "release_metric:affinity_R2_vs_mean"
+  ],
+  "metrics": {
+    "best_val_loss": 0.0004420215954121611,
+    "held_out_accuracy": 0.9984
+  },
+  "provenance": {
+    "author": "Huntington Applied",
+    "trained_at": "2026-07-19T12:23:07.304357+00:00"
+  },
+  "pipeline": "compiled",
+  "weights_published": true
+}
